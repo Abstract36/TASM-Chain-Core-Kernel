@@ -22,6 +22,8 @@ Instead, it documents the theoretical foundations of a blockchain architecture g
 - [Theory](./docs/theory.md) - Conceptual foundation and philosophical background
 - [Formal Model](./docs/formal-model.md) - Mathematical formalism and definitions
 - [Kernel Specification](./docs/kernel-spec.md) - Core implementation specification
+- [Examples](./docs/examples.md) - Practical examples demonstrating key concepts
+- [Glossary](./docs/glossary.md) - Comprehensive reference of terms and notation
 
 ---
 
