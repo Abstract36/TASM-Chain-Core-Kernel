@@ -209,7 +209,9 @@ Both models can represent the same systems, but offer different perspectives:
 ### Entropy
 A measure of uncertainty or randomness in the possibility space.
 
-**Definition:** `H(Π) = -∑ p(s) log p(s)` for `s ∈ Π`
+**Definition:** `H(Π) = -∑ p(s) log p(s)` for `s ∈ Π` (for weighted possibility spaces)
+
+**Note:** This requires a probability distribution over `Π`. For basic TASM-Chain (unweighted), entropy can be approximated as `log(|Π|)`.
 
 **Interpretation:** 
 - High entropy → Many possibilities remain

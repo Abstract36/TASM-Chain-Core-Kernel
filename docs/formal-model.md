@@ -107,7 +107,7 @@ Where `μ : 𝒫(𝕌) → 𝕌` is a **reduction function** that maps a possibi
 
 3. **Deterministic Hash:**
    ```
-   μ(Π) = hash(Π) mod |Π|  // deterministic pseudorandom selection
+   μ(Π) = hash(Π) mod |Π|  // deterministic pseudorandom selection (requires |Π| > 0)
    ```
 
 ---

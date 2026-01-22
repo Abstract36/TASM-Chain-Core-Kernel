@@ -23,7 +23,7 @@ This transformation-centric view treats state as:
 
 ### The Possibility Collapse Paradigm
 
-TASM-Chain adopts a fundamentally different perspective rooted in quantum-inspired mechanics:
+TASM-Chain adopts a fundamentally different perspective rooted in quantum-inspired principles:
 
 **State is not transformed; it emerges from collapsed possibilities.**
 

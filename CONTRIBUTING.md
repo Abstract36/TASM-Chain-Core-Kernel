@@ -112,8 +112,10 @@ These are outside the scope of this thought experiment.
 By contributing to TASM-Chain, you agree that:
 
 1. Your contributions are **original work** or properly attributed
-2. You grant the project **permission to use** your contributions
-3. You **waive claims** to any intellectual property rights beyond attribution
+2. You grant the project a **non-exclusive, perpetual license** to use your contributions under the same terms as the repository
+3. Your contributions will be attributed to you
+
+This project is released into the public domain or under an extremely permissive license. Check the LICENSE file (if present) for specific terms.
 
 **Attribution:** All contributors will be credited in a CONTRIBUTORS.md file (if created).
 

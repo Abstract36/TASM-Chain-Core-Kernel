@@ -289,7 +289,7 @@ Constraint 3: Alice + Bob = 80
 Minimum sum: 50 + 50 = 100
 Required sum: 80
 
-100 > 80  →  Contradiction!
+100 > 80  ⟹  Contradiction (⊥)
 
 Π = ∅  (empty set)
 ```
