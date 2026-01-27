@@ -45,9 +45,6 @@ A minimal, deterministic kernel:
 The kernel has exactly **one state transition driver**:
 advance_time(t)
 
-yaml
-Копировать код
-
 Everything else is derived.
 
 ---
