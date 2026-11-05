@@ -1,0 +1,29 @@
+name: Check
+
+on: [push, pull_request]
+
+jobs:
+  lean:
+    name: Lean proofs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install elan
+        run: |
+          curl -sSfL -o elan.tar.gz \
+            https://github.com/leanprover/elan/releases/latest/download/elan-x86_64-unknown-linux-gnu.tar.gz
+          tar xzf elan.tar.gz
+          ./elan-init -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      # The toolchain is pinned by ./lean-toolchain and fetched on first use.
+      - name: Check the development
+        run: lean formal/TASM.lean
+      - name: Check that the superseded axioms were vacuous
+        run: lean formal/Vacuity.lean
+
+  kernel:
+    name: Kernel invariants
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cargo test --manifest-path kernel/Cargo.toml

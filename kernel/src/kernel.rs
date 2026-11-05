@@ -1,6 +1,5 @@
-#![no_std]
+//! The TASM kernel: time is the only state-transition driver.
 
-extern crate alloc;
 
 use alloc::collections::{BTreeMap, BTreeSet};
 

@@ -1,0 +1,11 @@
+[package]
+name = "tasm-kernel"
+version = "0.1.0"
+edition = "2021"
+description = "Executable kernel for Time-Absence State Machines"
+license = "MIT"
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
