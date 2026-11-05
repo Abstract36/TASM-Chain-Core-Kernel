@@ -1,5 +1,7 @@
 # TASM — Time–Absence State Machines
 
+[![Check](https://github.com/Abstract36/TASM-Chain-Core-Kernel/actions/workflows/check.yml/badge.svg)](https://github.com/Abstract36/TASM-Chain-Core-Kernel/actions/workflows/check.yml)
+
 A class of systems where **state evolves because time passes, not because
 actions occur.**
 
